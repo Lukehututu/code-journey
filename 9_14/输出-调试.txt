@@ -1,0 +1,12 @@
+﻿“9_14.exe”(Win32): 已加载“C:\Users\Luk1\Desktop\c\project\9_14\Debug\9_14.exe”。已加载符号。
+“9_14.exe”(Win32): 已加载“C:\Windows\SysWOW64\ntdll.dll”。
+“9_14.exe”(Win32): 已加载“C:\Windows\SysWOW64\kernel32.dll”。
+“9_14.exe”(Win32): 已加载“C:\Windows\SysWOW64\KernelBase.dll”。
+“9_14.exe”(Win32): 已加载“C:\Windows\SysWOW64\vcruntime140d.dll”。
+“9_14.exe”(Win32): 已加载“C:\Windows\SysWOW64\ucrtbased.dll”。
+线程 0x5738 已退出，返回值为 0 (0x0)。
+“9_14.exe”(Win32): 已加载“C:\Windows\SysWOW64\kernel.appcore.dll”。
+“9_14.exe”(Win32): 已加载“C:\Windows\SysWOW64\msvcrt.dll”。
+线程 0x139c 已退出，返回值为 0 (0x0)。
+线程 0x57f0 已退出，返回值为 0 (0x0)。
+程序“[22972] 9_14.exe”已退出，返回值为 0 (0x0)。
