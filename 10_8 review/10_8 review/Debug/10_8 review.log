@@ -1,0 +1,4 @@
+﻿  test.c
+C:\Users\Luk1\source\repos\10_8 review\10_8 review\test.c(154,14): warning C4013: “rand”未定义；假设外部返回 int
+C:\Users\Luk1\source\repos\10_8 review\10_8 review\test.c(181,7): warning C4013: “srand”未定义；假设外部返回 int
+  10_8 review.vcxproj -> C:\Users\Luk1\source\repos\10_8 review\Debug\10_8 review.exe

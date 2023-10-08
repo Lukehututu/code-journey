@@ -1,0 +1,3 @@
+﻿  test.c
+C:\Users\Luk1\source\repos\10_4_dontai\10_4_dontai\test.c(251,1): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  10_4_dontai.vcxproj -> C:\Users\Luk1\source\repos\10_4_dontai\Debug\10_4_dontai.exe

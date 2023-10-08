@@ -1,0 +1,8 @@
+﻿  test_1.c
+C:\Users\Luk1\source\repos\9_13\9_13\test_1.c(172,8): warning C4013: “system”未定义；假设外部返回 int
+  正在生成代码
+  1 of 7 functions (14.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  9_13.vcxproj -> C:\Users\Luk1\source\repos\9_13\Release\9_13.exe

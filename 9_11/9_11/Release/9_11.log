@@ -1,0 +1,7 @@
+﻿  1.c
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 10 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+C:\Users\Luk1\source\repos\9_11\9_11\1.c(449): warning C4716: “menu”: 必须返回一个值
+  已完成代码的生成
+  9_11.vcxproj -> C:\Users\Luk1\source\repos\9_11\Release\9_11.exe

@@ -1,0 +1,8 @@
+﻿  9_8.c
+C:\Users\Luk1\source\repos\9_8\9_8\9_8.c(182,9): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
+C:\Users\Luk1\source\repos\9_8\9_8\9_8.c(182,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“char *”
+C:\Users\Luk1\source\repos\9_8\9_8\9_8.c(184,9): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
+C:\Users\Luk1\source\repos\9_8\9_8\9_8.c(184,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“char *”
+C:\Users\Luk1\source\repos\9_8\9_8\9_8.c(185,9): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
+C:\Users\Luk1\source\repos\9_8\9_8\9_8.c(185,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“char *”
+  9_8.vcxproj -> C:\Users\Luk1\source\repos\9_8\Debug\9_8.exe

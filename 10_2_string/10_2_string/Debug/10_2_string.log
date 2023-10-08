@@ -1,0 +1,4 @@
+﻿  test.c
+C:\Users\Luk1\source\repos\10_2_string\10_2_string\test.c(58,1): warning C4090: “初始化”: 不同的“const”限定符
+C:\Users\Luk1\source\repos\10_2_string\10_2_string\test.c(63,1): warning C4090: “初始化”: 不同的“const”限定符
+  10_2_string.vcxproj -> C:\Users\Luk1\source\repos\10_2_string\Debug\10_2_string.exe
