@@ -1,0 +1,4 @@
+﻿  test.c
+C:\Users\Luk1\source\repos\10_18\10_18\test.c(55,32): warning C4013: “calloc”未定义；假设外部返回 int
+C:\Users\Luk1\source\repos\10_18\10_18\test.c(94): warning C4715: “addBinary”: 不是所有的控件路径都返回值
+  10_18.vcxproj -> C:\Users\Luk1\source\repos\10_18\Debug\10_18.exe

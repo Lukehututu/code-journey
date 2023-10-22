@@ -1,0 +1,3 @@
+﻿  test.cpp
+C:\Users\Luk1\source\repos\10_21matchrbaket\10_21matchrbaket\test.cpp(49): warning C4715: “MatchBracket”: 不是所有的控件路径都返回值
+  10_21matchrbaket.vcxproj -> C:\Users\Luk1\source\repos\10_21matchrbaket\Debug\10_21matchbraket.exe

@@ -1,0 +1,4 @@
+﻿  test.c
+C:\Users\Luk1\source\repos\10_17\10_17\test.c(46,23): warning C4013: “strlen”未定义；假设外部返回 int
+C:\Users\Luk1\source\repos\10_17\10_17\test.c(81): warning C4172: 返回局部变量或临时变量的地址: sum
+  10_17.vcxproj -> C:\Users\Luk1\source\repos\10_17\Debug\10_17.exe
