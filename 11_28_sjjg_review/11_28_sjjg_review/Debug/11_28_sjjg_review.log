@@ -1,0 +1,5 @@
+﻿  源.cpp
+F:\cs\数据结构\project\11_28_sjjg_review\11_28_sjjg_review\源.cpp(82): warning C4715: “DeleteList”: 不是所有的控件路径都返回值
+F:\cs\数据结构\project\11_28_sjjg_review\11_28_sjjg_review\源.cpp(52): warning C4715: “isFull”: 不是所有的控件路径都返回值
+F:\cs\数据结构\project\11_28_sjjg_review\11_28_sjjg_review\源.cpp(70): warning C4715: “Empty”: 不是所有的控件路径都返回值
+  11_28_sjjg_review.vcxproj -> F:\cs\数据结构\project\11_28_sjjg_review\Debug\11_28_sjjg_review.exe
