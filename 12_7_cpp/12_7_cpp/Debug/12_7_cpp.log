@@ -1,0 +1,3 @@
+﻿  test.cpp
+F:\cs\cpp\12_7_cpp\12_7_cpp\test.cpp(17): warning C4715: “Caculator::Cauculate”: 不是所有的控件路径都返回值
+  12_7_cpp.vcxproj -> F:\cs\cpp\12_7_cpp\Debug\12_7_cpp.exe
