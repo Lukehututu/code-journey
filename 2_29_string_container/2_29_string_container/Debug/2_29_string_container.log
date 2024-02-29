@@ -1,0 +1,4 @@
+﻿  test02.cpp
+F:\cs\cpp\2_29_string_container\2_29_string_container\test02.cpp(67,20): warning C4018: “<”: 有符号/无符号不匹配
+F:\cs\cpp\2_29_string_container\2_29_string_container\test02.cpp(73,20): warning C4018: “<”: 有符号/无符号不匹配
+  2_29_string_container.vcxproj -> F:\cs\cpp\2_29_string_container\Debug\2_29_string_container.exe
