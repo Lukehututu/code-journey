@@ -1,0 +1,4 @@
+﻿  test02.cpp
+F:\cs\cpp\3_1_deque\3_1_deque\test02.cpp(73,20): warning C4018: “<”: 有符号/无符号不匹配
+F:\cs\cpp\3_1_deque\3_1_deque\test02.cpp(80,20): warning C4018: “<”: 有符号/无符号不匹配
+  3_1_deque.vcxproj -> F:\cs\cpp\3_1_deque\Debug\3_1_deque.exe
