@@ -13,14 +13,12 @@ using namespace std;
       ListNode(int x, ListNode *next) : val(x), next(next) {}
   };
  
-class Solution {
+class SolutionV_1 {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-        int new_data = head->val;//设置一个n来存不重复的数        
-        ListNode* tmp = head;//设置一个迭代器来实现遍历
-       // ListNode* new_list = new ListNode(new_data);//设置一个新的链表来存数据
-        ListNode first(new_data);
-        ListNode* new_list = &first;
+        int new_data = head->val;//设置一个new来存放应该放进新链表的数       
+        ListNode* tmp = head;//设置一个指针来实现遍历
+        ListNode* new_list = new ListNode(new_data);//设置一个新的链表来存数据
         ListNode* cur_node = new_list;//同时设置一个指针来帮助插入数据
         //开始遍历整个链表，遇到不同的就new一个新的结点将数据放进去
         while (tmp != nullptr) {
@@ -30,17 +28,54 @@ public:
             //如果tmp指的结点的值不等于new_data,那就更新new_data并插入新结点
             if (tmp->val != new_data) {
                 new_data = tmp->val;
-                ListNode nnode(new_data);
-                ListNode* newnode = &nnode;
-                cur_node->next = newnode;
-                cur_node = newnode;
+                cur_node->next = new ListNode(new_data);
+                cur_node = cur_node->next;
             }
         }
-        //此时已经得到新的链表
+        //此时已经得到新的链表 
         head = new_list;
         return head;
     }
 };
+
+
+class SolutionV_2 {
+public:
+    ListNode* deleteDuplicates(ListNode* head) {
+        if (!head || !head->next)
+            return head;
+        ListNode* pre = head;
+        ListNode* post = head->next;
+
+        while (post)
+        {
+            //相等情况
+            if (post->val == pre->val)
+            {
+                //释放空间
+                ListNode* tmp = post;
+                post = post->next;
+                delete tmp;
+            }
+            else
+            {
+                pre->next = post;
+                pre = post;
+                post = post->next;
+            }
+        }
+        pre->next = nullptr;
+        return head;
+    }
+};
+
+
+
+
+
+
+
+
 
 void PrintList(ListNode* head)
 {
@@ -83,7 +118,10 @@ int main()
         cur = nnode;
     }
     PrintList(head);
-    Solution S;
+    cout << endl;
+    /*SolutionV_1 S;
+    ListNode* L = S.deleteDuplicates(head);*/
+    SolutionV_2 S;
     ListNode* L = S.deleteDuplicates(head);
     PrintList(L);
     // 释放链表的内存
